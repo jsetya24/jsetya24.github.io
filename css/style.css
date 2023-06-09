@@ -1,0 +1,226 @@
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+body {
+    font-family: 'Kanit', sans-serif;
+    background-color: #3D7794;
+    position: relative;
+    color: #fff;
+}
+
+/* Z Index */
+
+.navbar {
+    z-index: 3;
+}
+
+* {
+    z-index: 2;
+}
+
+.img-hero {
+    z-index: 1;
+}
+
+
+/* Navbar Style */
+
+.nav-color {
+    background-color: #224D62;
+    opacity: 0.9;
+    transition: all ease-in-out .3s;
+}
+
+.bg-transparent {
+    transition: all ease-in-out .3s;
+}
+
+.nav-item {
+    color: #fff;
+    font-size: 32px;
+    font-weight: 500;
+}
+
+.navbar-brand {
+    font-weight: 600;
+    font-size: 32px;
+}
+
+.icon {
+    width: 40px;
+    height: 40px;
+}
+
+/* Main Section */
+
+#main-section {
+        height: 695px;
+        width: 100%;
+}
+
+.main h1 {
+    font-size: 85px;
+    color: #fff;
+    font-weight: 600;
+    text-align: center;
+}
+
+.img-hero {
+    width: 770px;
+    height: 650px;
+    margin-top: 20px;
+}
+
+.tag-button {
+    color: #224D62;
+    width: 416px;
+    height: 97px;
+    font-weight: 600;
+    font-size: 36px;
+    border-radius: 45px;
+    border: 3px solid black;
+    margin-top: 20px;
+}
+
+.tag-button:hover {
+    background-color: #224D62;
+    color: #fff;
+    width: 416px;
+    height: 97px;
+    font-weight: 600;
+    font-size: 36px;
+    border-radius: 45px;
+    border: 3px solid black;
+    margin-top: 20px;
+}
+
+
+/* Reason Section */
+
+#tugm-reason {
+    width: 100%;
+    height: 400px;
+    background-color: #fff;
+    color: #000;
+    padding: 10px;
+}
+
+.reason h1 {
+    font-weight: 500;
+    font-size: 64px;
+    line-height: 50px;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.reason p {
+    font-weight: 400;
+    font-size: 40px;
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+}
+
+/* Section Layanan */
+
+#layanan {
+    width: 100%;
+    height: 1220px;
+}
+
+.layanan {
+    width: 415px;
+    height: 500px;
+    border-radius: 20px;
+    background-color: #fff;
+    margin-top: 50px;
+    margin-bottom: 30px;
+    box-shadow: 0 0 7px 3px rgba(0, 0, 0, 0.15);
+}
+
+.icon-layanan {
+    width: 415px;
+    height: 233px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.content-layanan h3{
+    font-weight: 600;
+    font-size: 36px;
+    color: #000;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.topup-button {
+    width: 234px;
+    height: 70px;
+    border-radius: 45px;
+    color: #fff;
+    background-color: #224D62;
+    font-size: 30px;
+    font-weight: 600;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 3px solid black;
+    font-style: none;
+}
+
+.button-topup {
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+/* Hover Transition */
+
+.topup-button:hover {
+    width: 234px;
+    height: 70px;
+    border-radius: 45px;
+    color: #224D62;
+    background-color: #f0f0f0;
+    font-size: 30px;
+    font-weight: 600;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 3px solid black;
+}
+
+.button-topup:hover {
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+/* Footer */
+
+#footer {
+    width: 100%;
+    height: 550px;
+    background-color: #224D62;
+}
+
+.content-footer h3 {
+    font-size: 40px;
+    font-weight: 600;
+    display: flex;
+    justify-content: center;
+    padding-top: 40px;
+}
+
+.footer-img {
+    display: block;
+    margin: auto;
+}
